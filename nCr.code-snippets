@@ -1,0 +1,17 @@
+{
+	"": {
+		"prefix": "nCr",
+		"body": [
+		  "ll fac[600000+2]; ",
+		  "    ",
+		  "ll nCr(ll n, ll r, ll p) ",
+		  "{ ",
+		  "   if (r==0) ",
+		  "      return 1; ",
+		  "    return (fac[n]* modInverse(fac[r], p) % p * ",
+		  "            modInverse(fac[n-r], p) % p) % p; ",
+		  "}"
+		],
+		"description": ""
+	  }
+}

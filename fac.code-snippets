@@ -1,0 +1,11 @@
+{
+	"": {
+		"prefix": "fac",
+		"body": [
+		  "::fac[0] = 1; ",
+		  "for (ll i=1 ; i<=600001; i++) ",
+		  "    ::fac[i] = (::fac[i-1])*i%rem; "
+		],
+		"description": ""
+	  }
+}
